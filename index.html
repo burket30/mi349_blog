@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Reading Blog</title>
 </head>
 <body>
@@ -19,12 +20,14 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <p>Books so far:</p>
-        <li>Till We have Faces</li>
-        <li>Notes from the Underground</li>
+        <section id="book-list">
+            <h3>Books so far:</h3>
+            <li>Till We have Faces</li>
+            <li>Notes from the Underground</li>
+        </section>
         <article>
-            <h3>Till We Have Faces by C.S. Lewis</h3>
-            <address>Written by Matthew Burkett - <time>5:50</time> PM</address>
+            <h3 class="article-title">Till We Have Faces by C.S. Lewis</h3>
+            <address>Written by Matthew Burkett - <time datetime="2021-10-28 5:50">5:50</time> PM</address>
             <p><img src="TillWeHaveFaces.jpg" alt="Cover of Till We Have Faces"></p>
             <p>
                 I've heard that Lewis considered this to be one of his best books. I would say it's probably one of the best fiction books I've
@@ -76,9 +79,10 @@
                 </tr>
             </table>
         </article>
+        <p><br></p>
         <article>
-            <h3>Notes from the Underground by Fyodor Dostoyevsky</h3>
-            <address>Written by Matthew Burkett - <time>6:20</time> PM</address>
+            <h3 class="article-title">Notes from the Underground by Fyodor Dostoyevsky</h3>
+            <address>Written by Matthew Burkett - <time datetime="2021-10-28 6:20">6:20</time> PM</address>
             <p><img src="NotesFromTheUnderground.jpg" alt="Cover of Notes from the Underground"></p>
             <p>
                 Notes from the Underground is about the worst kind of man, as the underground man admits about himself. This anonymous character has
@@ -126,14 +130,15 @@
                 </tr>
             </table>
         </article>
+        <p><br></p>
+        <section>
+            <form>
+                <label>Sign up for our newsletter:
+                    <input type="text">
+                </label>
+                <button>Subscribe</button>
+            </form>
+        </section>
     </main>
-    <section>
-        <form>
-            <label>Sign up for our newsletter:
-                <input type="text">
-            </label>
-            <button>Subscribe</button>
-        </form>
-    </section>
 </body>
 </html>

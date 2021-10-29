@@ -1,0 +1,67 @@
+html {
+    background-color: rgb(98, 141, 228);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background-color: rgb(151, 181, 240);
+}
+
+header {
+    border-bottom: 7px solid #242424
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#book-list {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(98, 141, 228);
+    border: 3px solid rgb(125, 160, 230);
+}
+
+#contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(170, 194, 243);
+    border: 5px solid #242424;
+}
+
+article {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: rgb(170, 194, 243);
+    border: 5px solid #242424;
+}
+
+th {
+    border: 1px solid #242424;
+}
+
+td {
+    border: 1px solid #242424;
+}
+
+table {
+    border: 3px solid #242424;
+}
+
+.article-title {
+    font-size: 2em;
+}
+
+img[source$=".jpg"] {
+    border: 2 px solid #242424
+}
