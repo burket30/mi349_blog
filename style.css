@@ -65,3 +65,54 @@ table {
 img[source$=".jpg"] {
     border: 2 px solid #242424
 }
+
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: 0.9em;
+    }
+    
+    .article-title {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.75em;
+    }
+
+    th {
+        font-size: 0.75em;
+    }
+    
+    td {
+        font-size: 0.75em;
+    }
+
+    label {
+        font-size: 0.75em;
+    }
+
+    button {
+        font-size: 0.75em;
+    }
+
+    li {
+        font-size: 0.75em;
+    }
+}
